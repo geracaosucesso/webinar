@@ -66,22 +66,6 @@ public class CaptureBox {
     container.addRow().addColumn().span(12, ViewPort.X_SMALL).add(this.message);
     return this;
   }
-  
-//  public CaptureBox horizontal(HasComponents<?, ?> parent){
-//    SimpleForm form = SimpleForm.create().attachTo(parent);
-//    Tag.asDiv().attachTo(form).add(this.emailInput).css("inline");
-//    Tag.asDiv().attachTo(form).add(this.submit).css("inline");
-//    this.message.attachTo(parent);
-//    return this;
-//  }
-  
-//  public CaptureBox vertical(HasComponents<?, ?> parent){
-//    SimpleForm form = SimpleForm.create().attachTo(parent);
-//    Tag.asDiv().attachTo(form).add(this.emailInput);
-//    this.submit.attachTo(parent).style().width(100, Unit.PCT);
-//    this.message.attachTo(parent);
-//    return this;
-//  }
     
   private void init(){
     this.emailInput = InputText.create().placeholder("Coloque aqui seu melhor e-mail").css("form-control");
