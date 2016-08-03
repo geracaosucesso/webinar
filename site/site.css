@@ -1,0 +1,57 @@
+body {
+	background-image: url('landing.png');
+	background-size: cover; 
+}
+
+#page-layout-footer {
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+.logo {
+	margin: 0 auto;
+	display: inherit;
+}
+
+.heading, .description {
+	text-align: center;
+	color: white;
+}
+
+.guest {
+	background-color: transparent;
+	border: none;
+}
+
+.guest *{
+	color: white;
+	text-align: center;
+}
+
+.guests {
+	padding-bottom: 1em;
+}
+
+.message{
+	color: white;
+}
+
+#page-layout-footer .btn {
+	width: 100%;
+}
+
+/*Mobile Portrait*/
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	480px) {
+}
+
+/**Mobile Landscape**/
+@media only screen and (min-device-width: 568px) and (max-device-width:
+	767px) {
+
+}
+
+/*Tablet Landscape*/
+@media only screen and (min-device-width: 780px) and (max-device-width:
+	1024px) {
+}
