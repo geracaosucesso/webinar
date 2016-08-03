@@ -23,7 +23,7 @@ public class HomePage {
     container.addRow().addColumn().span(12, ViewPort.X_SMALL).add(RichImage.create().source("img/logo.png").css("logo").responsive());
     
     final Paragraph description = Paragraph.create().css("description");
-    container.addRow().addColumn().span(12, ViewPort.X_SMALL).add(Heading.two().text("Super Webinar").css("heading")).add(description);
+    container.addRow().addColumn().span(12, ViewPort.X_SMALL).add(Heading.two().text("Super Webinar - 04/08/16 às 20:30").css("heading")).add(description);
     
     HttpClient.create(Endpoint.create("/description.html")).get().send(new TextCallback() {
       @Override
